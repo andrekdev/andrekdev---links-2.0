@@ -2,7 +2,7 @@
 const consoleElement = document.getElementById('console');
 const eyesElement = document.querySelector('.eyes');
 
-document.getElementById('background-music').volume = 0.1;
+document.getElementById('background-music').volume = 0.2;
 function writeLine(text) {
     return new Promise(resolve => {
         let index = 0;
